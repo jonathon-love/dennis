@@ -1,0 +1,44 @@
+
+#main {
+    position: absolute ;
+    left: 50% ;
+    top: 50% ;
+    transform: translate(-50%, -50%);
+    width: 300px ;
+    height: 300px ;
+}
+
+#player1,
+#player2 {
+    position: absolute ;
+    width: 30px ;
+    height: 30px ;
+    border-radius: 5px ;
+    z-index: 1 ;
+    transition: all .1s;
+    background-size: 1200% 600% ;
+    background-image: url('graphics.png');
+}
+
+#player1 {
+    background-color: blue ;
+    background-position-x: 300%;
+}
+
+#player2 {
+    background-color: brown ;
+    background-position-x: 300%;
+    background-position-y: 500% ;
+}
+
+.cell {
+    width: 30px ;
+    height: 30px ;
+    position: absolute ;
+    background-color: pink ;
+    border: 1px solid red ;
+    color: red ;
+}
+
+
+
